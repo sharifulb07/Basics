@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.FancyBorder{
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.Fancyborder-blue{
+  color:blue;
+  font-size: large;
+  border:10px solid blue;
+}
+
+table {
+  border:1px solid white;
+}
+tr,  td{
+  border:1px solid white;
+}

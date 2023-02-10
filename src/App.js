@@ -1,16 +1,20 @@
 
-import "./App.css";
 // import Checkboxes from "./Components/Checkboxes";
 // import CheckBoxLabel from "./Components/CheckBoxLabel";
 // import SizeCheckboxes from "./Components/SizeCheckboxes";
-
 // import BlogContent from "./Components/BlogContent";
-import Reservation from "./Components/Reservation";
+// import Reservation from "./Components/Reservation";
+// import TemperatureInput from "./Components/calculator/TemperatureInput";
+// import FlavForm from "./Components/FlavForm";
+// import WelcomeDialog from "./Components/composition/WelcomeDialog";
+// import Chat from "./Components/composition/Chat";
+// import Contact from "./Components/composition/Contact";
+// import SplitPane from "./Components/composition/SplitPane";
 
-import TemperatureInput from "./Components/calculator/TemperatureInput";
+import FilterableProductTable from "./Components/datatable/FilterableProductTable";
 
 
-import FlavForm from "./Components/FlavForm";
+
 
 function App() {
   return (
@@ -19,10 +23,14 @@ function App() {
       <CheckBoxLabel />
       <SizeCheckboxes />
       <BlogContent /> */}
-<Reservation />
-<TemperatureInput  />
+      {/* <Reservation />
+      <TemperatureInput /> */}
+      {/* <FlavForm /> */}
+      {/* <WelcomeDialog /> */}
 
-<FlavForm />
+      {/* <SplitPane left={<Contact />} right={<Chat />} /> */}
+
+      <FilterableProductTable />
 
 
     </div>
